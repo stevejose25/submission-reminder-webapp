@@ -1,0 +1,51 @@
+{
+    "submissions":
+    [
+    {
+
+        "id":1,
+        "subject_id":1,
+        "type_id": 2,
+        "date": "10/1/2023"
+    },
+    {
+
+        "id":2,
+        "subject_id":1,
+        "type_id": 2,
+        "date": "10/1/2023"
+    }
+
+    
+
+    ],
+
+    "Subject": 
+    [
+    {
+        "id":1,
+        "Name": "Project Management",
+        "SubjectCode": "TM291",
+        "Professor": "X"
+
+    },
+    {
+        "id":2,
+        "Name": "Technology Entrepreneurship",
+        "SubjectCode": "TM251",
+        "Professor": "Mr. Bean"
+    }
+    ],
+
+    "Submission Type":
+    [
+        {
+            "id": 1,
+            "Name": "Assignment"
+        },
+        {
+            "id": 2,
+            "Name": "Individual Paper"
+        }
+    ]
+}

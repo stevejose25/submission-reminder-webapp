@@ -1,0 +1,8 @@
+<div class="form-group">
+    <label for="Subject Dropdown"> Select a Subject </label>
+    <select class="form-control" id="Subject Dropdown" (change)="handler($event)">
+      <option value="" selected disabled>Please select</option>
+      <option [value]="subject.id" *ngFor="let subject of subjects"> {{subject.name}} </option>
+     
+    </select>
+  </div>
